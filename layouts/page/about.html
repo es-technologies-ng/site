@@ -1,145 +1,126 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>{{ .Site.Title }}</title>	
-	<meta charset="UTF-8">
-	<meta name="description" content="Gorge Portfolio Template">
-	<meta name="keywords" content="personal, portfolio">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{ define "main" }}
 
-    <link rel="shortcut icon" href="../images/site-icon.png">
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="../cubeportfolio/css/cubeportfolio.min.css"/>
-    <link rel="stylesheet" href="../css/owl.theme.css"/> 
-    <link rel="stylesheet" href="../css/owl.carousel.css"/> 
-    <link rel="stylesheet" href="../css/colors/red.css"/>
-	<link rel="stylesheet" href="../css/style.css"/>
-    
-    <!-- Google Web fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
-    
-    <!-- Font icons -->
-    <link rel="stylesheet" href="../icon-fonts/fontawesome-5.0.6/css/fontawesome-all.min.css"/>
-    <link rel="stylesheet" href="../icon-fonts/flaticon/flaticon.css" />
-
-</head>
-<body>
-    
-    <!-- PRELOADER -->
-    <div class="preloader">
-        <div class="loader">
-            <div class="loader-inner"></div>
+<!-- SITE CONTENT -->
+<div class="wrapper">
+    <section class="titlebar h-100">
+        <h1 class="page-title"><span>{{ .Title }} </span>us</h1>
+        <div id="particles-js"></div>
+        <div class="about-text text-center top_90 px-5 mx-5">
+            <h2 class="subtitle">{{ .Params.intro }}</h2><br>
         </div>
-    </div>
+    </section>
 
-    {{ partial "header/header.html" . }}
+    <hr class="col-md-6 bottom_60">
 
-    {{ partial "menu/menu.html" . }}
+    <div class="cont">
+        <section class="about">
 
-    <!-- SITE CONTENT -->
-    <div class="wrapper">
-        <section class="titlebar">
-            <h1 class="page-title"><span>{{ .Title }} </span>us</h1>
-            <div id="particles-js"></div>
-        </section>
-        
-        <hr class="col-md-6 bottom_60">
-
-        <div class="cont">
-            <section class="about">
-                <!-- ABOUT TEXT -->
-                <div class="about-text text-center top_90">
-                    <h2 class="subtitle">{{ .Params.intro }}</h2><br>
-                    <p style="font-weight: 0;">{{ .Content }}</p>
+            <div class="row py-5">
+                <div class="col-md-6">
+                    <h2 class="subtitle">Creative Team</h2>
+                    <p>We are a team of young skillful I.T practitioners with deep resources to provide solutions of IT
+                        forms and solve any problem digitally. Our aim is to change the narrative of Computing and
+                        Information & Communication Technology in Nigeria. </p>
                 </div>
+                <div class="col-md-6">
+                    <img src="/images/creative-team.svg" alt="..." class="img-fluid">
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-6 order-md-2">
+                    <h2 class="subtitle">Quality First</h2>
+                    <p>We are a team of young skillful I.T practitioners with deep resources to provide solutions of IT
+                        forms and solve any problem digitally. Our aim is to change the narrative of Computing and
+                        Information & Communication Technology in Nigeria. </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="/images/quality.svg" alt="..." class="img-fluid">
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-md-6">
+                    <h2 class="subtitle">Finesse solutions</h2>
+                    <p>We are a team of young skillful I.T practitioners with deep resources to provide solutions of IT
+                        forms and solve any problem digitally. Our aim is to change the narrative of Computing and
+                        Information & Communication Technology in Nigeria. </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="/images/finesse.svg" alt="..." class="img-fluid">
+                </div>
+            </div>
 
-                <!-- WORK AREAS -->
-                <div class="owl-carousel work-areas text-center top_120 bottom_90 col-md-10 offset-md-1" data-pagination="true" data-autoplay="3000" data-items-desktop="3" data-items-desktop-small="3" data-items-tablet="2" data-items-tablet-small="1">
+            <!-- WORK AREAS -->
+            <div class="owl-carousel work-areas text-center top_120 bottom_90 col-md-12" data-pagination="true" data-autoplay="3000" data-items-desktop="3" data-items-desktop-small="3" data-items-tablet="2" data-items-tablet-small="1">
                     <!-- an area -->
                     <div class="area col-md-12 item">
-                        <i class="flaticon-024-computer-graphic"></i>
+                        <i class="flaticon-code"></i>
                         <h3 class="title" class="title">Web Design &amp; Development</h3>
                         <div class="line"></div>
                     </div>
                     <!-- an area -->
                     <div class="area col-md-12 item">
-                        <i class="flaticon-007-stationery"></i>
+                        <i class="flaticon-play-store"></i>
                         <h3 class="title">Android Applications</h3>
                         <div class="line"></div>
                     </div>
                     <!-- an area -->
                     <div class="area col-md-12 item">
-                        <i class="flaticon-025-graphic-design"></i>
+                        <i class="flaticon-app-store"></i>
                         <h3 class="title">iOS Applications</h3>
                         <div class="line"></div>
                     </div>
                     <!-- an area -->
                     <div class="area col-md-12 item">
-                        <i class="flaticon-024-computer-graphic"></i>
-                        <h3 class="title" class="title">Server/Back-end Development</h3>
+                        <i class="flaticon-maintenance"></i>
+                        <h3 class="title" class="title">Back-end Development</h3>
                         <div class="line"></div>
                     </div>
                     <!-- an area -->
                     <div class="area col-md-12 item">
-                        <i class="flaticon-007-stationery"></i>
+                        <i class="flaticon-consulting"></i>
                         <h3 class="title">I.T Consultancy &amp; Training</h3>
                         <div class="line"></div>
                     </div>
                     <!-- an area -->
                     <div class="area col-md-12 item">
-                        <i class="flaticon-025-graphic-design"></i>
-                        <h3 class="title">End-End E-Commerce Solution</h3>
+                        <i class="flaticon-screen"></i>
+                        <h3 class="title">e-Commerce Solution</h3>
                         <div class="line"></div>
                     </div>
                 </div>
 
-                <!-- WORK AREAS -->
-                <div class="clients">
-                    <div class="row">
-                        <!-- client -->
-                        <div class="col-md-3 col-sm-6 client">
-                            <figure>
-                                <img src="../images/clients/client-5.jpg">
-                            </figure>
-                        </div>
-                        <!-- client -->
-                        <div class="col-md-3 col-sm-6 client">
-                            <figure>
-                                <img src="../images/clients/client-6.jpg">
-                            </figure>
-                        </div>
-                        <!-- client -->
-                        <div class="col-md-3 col-sm-6 client">
-                            <figure>
-                                <img src="../images/clients/client-7.jpg">
-                            </figure>
-                        </div>
-                        <!-- client -->
-                        <div class="col-md-3 col-sm-6 client">
-                            <figure>
-                                <img src="../images/clients/client-8.jpg">
-                            </figure>
-                        </div>
+            <!-- WORK AREAS -->
+            <div class="clients">
+                <div class="row">
+                    <!-- client -->
+                    <div class="col-md-3 col-sm-6 client">
+                        <figure>
+                            <img src="../images/clients/client-5.jpg">
+                        </figure>
+                    </div>
+                    <!-- client -->
+                    <div class="col-md-3 col-sm-6 client">
+                        <figure>
+                            <img src="../images/clients/client-6.jpg">
+                        </figure>
+                    </div>
+                    <!-- client -->
+                    <div class="col-md-3 col-sm-6 client">
+                        <figure>
+                            <img src="../images/clients/client-7.jpg">
+                        </figure>
+                    </div>
+                    <!-- client -->
+                    <div class="col-md-3 col-sm-6 client">
+                        <figure>
+                            <img src="../images/clients/client-8.jpg">
+                        </figure>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-        </div> <!-- cont end -->
-    </div> <!-- wrapper end -->
+    </div> <!-- cont end -->
+</div> <!-- wrapper end -->
 
-    {{ partial "footer/footer.html" . }}
-    
-    <!-- Javascripts -->
-    <script src="../js/jquery-2.1.4.min.js"></script>    
-    <script src="../cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
-    <script src="../js/typed.js"></script>
-    <script src="../js/particles.js"></script>
-    <script src="../js/app.js"></script>
-    <script src="../js/jquery.hover3d.js"></script>
-    <script src="../twitter-api/tweetie.js"></script>
-    <script src="../js/owl.carousel.min.js"></script>
-    <script src="../js/main.js"></script>
-
-</body>
-</html>
+{{ end }}

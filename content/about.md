@@ -3,7 +3,7 @@ title: "About"
 date: 2019-01-14T14:20:00+01:00
 draft: true
 layout: "about"
-intro: "ES Technologies Ltd is an Information Technology and software development company founded by Young and enthusiastic entrepreneurs with strong technical and leadership background"
+intro: "Our team is made-up of young, talented and highly creative designers and engineers, with extreme passion for quality. The results will only be limited by your own imaginations."
 ---
 
 We are a team of young skillful I.T practitioners with deep resources to provide solutions of IT forms and solve any problem digitally. Our aim is to change the narrative of Computing and Information & Communication Technology in Nigeria. 

@@ -70,11 +70,7 @@ $(document).ready(function () {
 
 
     // PORTFOLIO EFFECT
-    $(".cbp-item").hover3d({
-        selector: "figure",
-        perspective: 3000,
-        shine: true
-    });
+   
 
 
     // $('.site-btn').click(function(){
@@ -199,6 +195,15 @@ $(document).ready(function () {
     }
 
 
+    // CHANGE NAVBAR COLOR ON SCROLL
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if(scroll < 100){
+            $('header').css('background', '#1f1f1f05');
+        } else{
+            $('header').css('background', '#1f1f1ffa');
+        }
+    });
 
 
 }); // document ready end
