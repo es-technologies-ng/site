@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2019-01-14T14:20:00+01:00
-draft: true
+draft: false
 layout: "about"
 intro: "Our team is made-up of young, talented and highly creative designers and engineers, with extreme passion for quality. The results will only be limited by your own imaginations."
 ---

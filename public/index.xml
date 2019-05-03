@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ES Technologies on Encrypted Shield Technologies</title>
+    <link>http://example.org/</link>
+    <description>Recent content in ES Technologies on Encrypted Shield Technologies</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Jan 2019 14:20:00 +0100</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quote</title>
+      <link>http://example.org/quote/</link>
+      <pubDate>Mon, 08 Apr 2019 10:16:33 +0100</pubDate>
+      
+      <guid>http://example.org/quote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://example.org/contactus/</link>
+      <pubDate>Wed, 30 Jan 2019 09:35:33 +0100</pubDate>
+      
+      <guid>http://example.org/contactus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Mon, 14 Jan 2019 14:20:00 +0100</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>We are a team of young skillful I.T practitioners with deep resources to provide solutions of IT forms and solve any problem digitally. Our aim is to change the narrative of Computing and Information &amp;amp; Communication Technology in Nigeria.
+The company is founded on the basis of strictly providing Quality and Standard services to the clients, and also build digital solutions that would transform the way of living in Nigeria as the world is becoming a global village.</description>
+    </item>
+    
+  </channel>
+</rss>
