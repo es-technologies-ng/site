@@ -1559,7 +1559,7 @@ textarea.form-message {
         font-size: 24px;
         line-height: 30px;
     }
-    .about .about-text p {
+    .about .about-text p, .about-info {
         font-size: 21px;
     }
     .owl-carousel.work-areas .area i:before {
@@ -1677,7 +1677,7 @@ textarea.form-message {
         font-size: 24px;
         line-height: 30px;
     }
-    .about .about-text p {
+    .about .about-text p, .about-info {
         font-size: 21px;
     }
     .owl-carousel.work-areas .area i:before {
@@ -1763,7 +1763,7 @@ textarea.form-message {
         font-size: 20px;
         line-height: 30px;
     }
-    .about .about-text p {
+    .about .about-text p, .about-info {
         font-size: 18px;
     }
     .owl-carousel.work-areas .area .title {
@@ -1793,7 +1793,7 @@ textarea.form-message {
         text-align: center;
     }
     body {
-        font-family: "Nexa Rust Slab", 'Montserrat', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         padding-bottom: 218px;
     }
     footer .social {
@@ -1814,13 +1814,13 @@ textarea.form-message {
         display: block;
     }
     .home .home-content .hero-title, .page-title {
-        font-size: 40px;
-        letter-spacing: -1px;
-        line-height: 39px;
+        font-size: 60px;
+        letter-spacing: 0px;
+        line-height: 60px;
     }
     .home .home-content p {
-        font-size: 15px;
-        margin-top: 11px;
+        font-size: 20px;
+        margin-top: 50px;
     }
     .home .home-content .social {
         display: none;
