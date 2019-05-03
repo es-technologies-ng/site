@@ -1,0 +1,90 @@
+{{ define "main" }}
+<!-- SITE CONTENT -->
+<div class="wrapper">
+    <section class="titlebar">
+        <h1 class="page-title"><span>Start a project </span><br><span style="color: white;">with us</span></h1>
+        <div id="particles-js"></div>
+    </section>
+
+    <hr class="col-md-6 bottom_60">
+
+    <div class="cont">
+        <section class="contact col-md-8 offset-md-2 top_90">
+            <div class="contact-info text-center w-100">
+                <p style="margin: auto;">Thanks for your interest in working with us. <br>Please complete the details below and we’ll get back to
+                    you within <span style="color: #ea0026;">one</span> business day.</p>
+            </div>
+            <div class="contact-form top_90">
+                <form class="row">
+                    <div class="col-md-6">
+                        <input class="inp" type="text" placeholder="Name">
+                    </div>
+                    <div class="col-md-6">
+                        <input class="inp" type="text" placeholder="Email">
+                    </div>
+                    <div class="col-md-6">
+                            <input class="inp" type="number" placeholder="phone">
+                        </div>
+                    <div class="col-md-12">
+                            <div class="text-center mt-5"><h2 style="color:white;">Project type</h2><br></div>
+                        <div class="checkbox-wrap row">
+                            <span class="col-md-4">
+                                <input class="checkbox" name="redesign" id="00NF000000DWKY9" value="1" type="checkbox"
+                                    checked="checked">
+                                <label for="00NF000000DWKY9" class="small custom-checkbox">Redesigning my
+                                    website</label>
+                            </span>
+                            <span class="col-md-4">
+                                <input class="checkbox" name="brand_new_site" id="00NF000000DWKYE" value="1"
+                                    type="checkbox">
+                                <label for="00NF000000DWKYE" class="small custom-checkbox">A brand new website</label>
+                            </span>
+                            <span class="col-md-4">
+                                <input class="checkbox" name="branding" id="00NF000000DWKYT" value="1" type="checkbox">
+                                <label for="00NF000000DWKYT" class="small custom-checkbox">Branding</label>
+                            </span>
+                            <span class="col-md-4">
+                                <input class="checkbox" name="marketing" id="00NF000000DWKYY" value="1" type="checkbox">
+                                <label for="00NF000000DWKYY" class="small custom-checkbox">Marketing</label>
+                            </span>
+                            <span class="col-md-4">
+                                <input class="checkbox" name="ecommerce" id="00NF000000DWKYJ" value="1" type="checkbox">
+                                <label for="00NF000000DWKYJ" class="small custom-checkbox">Ecommerce</label>
+                            </span>
+                            <span class="col-md-4">
+                                <input class="checkbox" name="mobile" id="00NF000000DWKYO" value="1" type="checkbox">
+                                <label for="00NF000000DWKYO" class="small custom-checkbox">Mobile application</label>
+                            </span>
+                            <span class="col-md-4">
+                                <input class="checkbox" name="support" id="00NF000000DWKYd" value="1" type="checkbox">
+                                <label for="00NF000000DWKYd" class="small custom-checkbox">Support</label>
+                            </span>
+                            <span class="col-md-4">
+                                <input class="checkbox" name="other" id="00NF000000DWKYi" value="1" type="checkbox">
+                                <label for="00NF000000DWKYi" class="small custom-checkbox">Other</label>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-12 pt-5">
+                            <div class="text-center"><h2 style="color:white;">Estimated budget</h2><br></div>
+                            <input value="200000" type = "range" step="50000" min="50000" max="10000000" oninput="rangevalue.value='N '+(parseInt(value)).toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,')"/>        
+                            <output id="rangevalue" class="brand">N 200,000</output>
+                    </div>
+                    <div class="col-md-12">
+                            <div class="text-center"><h2 style="color:white;">Describe the project</h2><br></div>
+                        <textarea placeholder="Project description" rows="6" class="col-md-12 form-message"></textarea>
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <input type="submit" value="Submit" class="site-btn2">
+                    </div>
+                </form>
+            </div>
+
+
+
+        </section>
+
+    </div> <!-- cont end -->
+</div> <!-- wrapper end -->
+
+{{ end }}

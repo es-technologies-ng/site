@@ -201,7 +201,7 @@ $(document).ready(function () {
         if(scroll < 100){
             $('header').css('background', '#1f1f1f05');
         } else{
-            $('header').css('background', '#1f1f1ffa');
+            $('header').css('background', '#1f1f1f05');
         }
     });
 
