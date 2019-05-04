@@ -2,11 +2,18 @@
 
 <!-- SITE CONTENT -->
 <div class="wrapper">
-    <section class="titlebar h-100">
+    <section class="titlebar h-100" style="height: 90vh !important;">
         <h1 class="page-title"><span>{{ .Title }} </span><span style="color:white !important;">us</span></h1>
         <div id="particles-js"></div>
-        <div class="about-text text-center top_90 px-5 mx-5">
-            <h2 class="subtitle">{{ .Params.intro }}</h2><br>
+        <div class="about-text text-center top_90 px-m-5 mx-m-5 px-1">
+            <h2 class="subtitle" style="font-weight: normal !important">{{ .Params.intro }}</h2><br>
+        </div>
+        <div class="scroll-downs-container">
+            <div class="scroll-downs">
+                <div class="mousey">
+                  <div class="scroller"></div>
+                </div>
+              </div>
         </div>
     </section>
 
@@ -17,17 +24,17 @@
 
             <div class="row py-5">
                 <div class="col-md-6">
+                    <img src="/images/app-dev.svg" alt="..." class="img-fluid">
+                </div>
+                <div class="col-md-6">
                     <h2 class="subtitle">Creative Team</h2>
-                    <p class="about-info">With a team made up off creative designers, awesome leaders, analysts, strategists and mastermind
+                    <p>With a team made up off creative designers, awesome leaders, analysts, strategists and mastermind
                         engineers, your digital problems are bound to meet a top-notch solution. We take joy in pushing
                         the boundaries of technologies to deliver that unique solution you dream of.</p>
                 </div>
-                <div class="col-md-6">
-                    <img src="/images/app-dev.svg" alt="..." class="img-fluid">
-                </div>
             </div>
-            <div class="row my-5">
-                <div class="col-md-6 order-md-2">
+            <div class="row my-5 flex-column-reverse flex-md-row">
+                <div class="col-md-6">
                     <h2 class="subtitle">Quality First</h2>
                     <p>We don't do <q>as long as it works</q>! We make sure we maintain the highest level of beauty in
                         order
@@ -40,14 +47,14 @@
             </div>
             <div class="row py-5">
                 <div class="col-md-6">
+                    <img src="/images/finesse.svg" alt="..." class="img-fluid">
+                </div>
+                <div class="col-md-6">
                     <h2 class="subtitle">Finesse solutions</h2>
                     <p>Our team are obsessed with fine details and always make sure we get even the tiniest detail right
                         before calling it a "Job done". Your happiness is our main priority (well, with regards to the
                         results of course :D), thus We design, develop and iterate until you are well pleased with the
                         results.</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="/images/finesse.svg" alt="..." class="img-fluid">
                 </div>
             </div>
 

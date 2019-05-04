@@ -1104,7 +1104,7 @@ footer .getintouch strong {
 }
 
 .titlebar #particles-js {
-    height: 460px;
+    height: 90vh;
 }
 
 .about .about-text .subtitle {
@@ -1116,7 +1116,6 @@ footer .getintouch strong {
 .about .about-text p {
     color: #5f5e5f;
     font-size: 22px;
-    font-weight: bold;
     letter-spacing: -1px;
     line-height: 35px;
 }
@@ -1545,7 +1544,7 @@ textarea.form-message {
         z-index: 10;
     }
     .titlebar .page-title, .titlebar .page-title span {
-        font-size: 70px;
+        font-size: 100px;
     }
     .titlebar {
         padding: 74px 0;
@@ -1553,14 +1552,16 @@ textarea.form-message {
         text-align: center;
     }
     .titlebar #particles-js {
-        height: 410px;
+        height: 90vh;
     }
     .about .about-text .subtitle {
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 55px;
+        letter-spacing: 0px;
+        line-height: 60px;
     }
     .about .about-text p, .about-info {
-        font-size: 21px;
+        font-size: 20px;
+        margin-top: 50px;
     }
     .owl-carousel.work-areas .area i:before {
         font-size: 70px;
@@ -1639,7 +1640,7 @@ textarea.form-message {
         padding: 18px;
     }
     .home .home-content .hero-title, .page-title {
-        font-size: 70px;
+        font-size: 90px;
         line-height: 64px;
     }
     .home .home-content p {
@@ -1663,7 +1664,9 @@ textarea.form-message {
         z-index: 10;
     }
     .titlebar .page-title, .titlebar .page-title span {
-        font-size: 50px;
+        font-size: 90px;
+        letter-spacing: -4px;
+        line-height: 60%;
     }
     .titlebar {
         padding: 74px 0;
@@ -1671,7 +1674,7 @@ textarea.form-message {
         text-align: center;
     }
     .titlebar #particles-js {
-        height: 280px;
+        height: 90vh;
     }
     .about .about-text .subtitle {
         font-size: 24px;
@@ -1749,7 +1752,7 @@ textarea.form-message {
         z-index: 10;
     }
     .titlebar .page-title, .titlebar .page-title span {
-        font-size: 30px;
+        font-size: 60px;
     }
     .titlebar {
         padding: 74px 0;
@@ -1757,7 +1760,7 @@ textarea.form-message {
         text-align: center;
     }
     .titlebar #particles-js {
-        height: 230px;
+        height: 90vh;
     }
     .about .about-text .subtitle {
         font-size: 20px;
@@ -1814,7 +1817,7 @@ textarea.form-message {
         display: block;
     }
     .home .home-content .hero-title, .page-title {
-        font-size: 60px;
+        font-size: 55px;
         letter-spacing: 0px;
         line-height: 60px;
     }
@@ -1981,6 +1984,48 @@ input[type=checkbox], input[type=radio], label {
         margin-top: 60px;
     }
 }
+
+/***************************** Mouse Effect *******************/
+.scroll-downs-container {
+    position: relative;
+    top: 100px;
+}
+
+.scroll-downs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    
+    width :34px;
+    height: 55px;
+  }
+  .mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+  }
+  .scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+  }
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+  }
 
 /*********************** Range slider*/
 /* track */

@@ -3,7 +3,7 @@
 <!-- SITE CONTENT -->
 <div class="wrapper">
     <section class="titlebar">
-        <h1 class="page-title"><span>Contact </span>us</h1>
+        <h1 class="page-title"><span>Contact </span><span style="color: white !important;">us</span></h1>
         <div id="particles-js"></div>
     </section>
 
@@ -17,7 +17,7 @@
                 <p>{{ .Params.phones }}</p>
             </div>
             <div class="contact-form top_90">
-                <form class="row">
+                <form class="row" name="contact" netlify>
                     <div class="col-md-6">
                         <input class="inp" type="text" placeholder="Name">
                     </div>
@@ -28,7 +28,7 @@
                         <textarea placeholder="Your Message" rows="6" class="col-md-12 form-message"></textarea>
                     </div>
                     <div class="col-md-12 text-center">
-                        <input type="submit" value="Submit" class="site-btn2">
+                        <input type="submit"  class="site-btn2">
                     </div>
                 </form>
             </div>
