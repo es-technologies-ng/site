@@ -17,15 +17,15 @@
                 <p>{{ .Params.phones }}</p>
             </div>
             <div class="contact-form top_90">
-                <form class="row" name="contact" netlify>
+                <form class="row" name="contact" data-netlify=true>
                     <div class="col-md-6">
-                        <input class="inp" type="text" name="form-name" placeholder="Name" required>
+                        <input class="inp" type="text" name="name" placeholder="Name" required>
                     </div>
                     <div class="col-md-6">
-                        <input class="inp" type="text" name="form-email" placeholder="Email" required>
+                        <input class="inp" type="text" name="email" placeholder="Email" required>
                     </div>
                     <div class="col-md-12">
-                        <textarea placeholder="Your Message" name="form-message" rows="6" class="col-md-12 form-message" required></textarea>
+                        <textarea placeholder="Your Message" name="message" rows="6" class="col-md-12 form-message" required></textarea>
                     </div>
                     <div class="col-md-12 text-center">
                         <input type="submit"  class="site-btn2">
